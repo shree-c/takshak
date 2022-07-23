@@ -1,0 +1,105 @@
+@font-face {
+    font-family: cormorant-medium;
+    src: url('./Cormorant_SC/CormorantSC-Medium.ttf');
+}
+
+#blue {
+    background-color: rgb(38, 192, 128);
+}
+
+#orange {
+    background-color: orange;
+}
+
+body {
+    margin: 0;
+    font-family: cormorant-medium;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.right a {
+    margin-right: 20px;
+}
+
+.left a {
+    margin-left: 20px;
+}
+
+nav a:hover {
+    border-bottom: 4px solid black;
+}
+
+
+.container {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+
+.licon {
+    padding-right: 50%;
+    padding-left: 100px;
+}
+
+.ricon {
+    padding-right: 100px;
+    padding-left: 50%;
+}
+
+.competitions>div {
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.competitions h3,
+.competitions p {
+    margin: 0;
+}
+
+
+.competitions h3 {
+    padding-top: 1.5rem;
+}
+
+.competitions p {
+    padding-bottom: 3rem;
+}
+
+.quiz {
+    background-color: palegreen;
+}
+
+.thunt {
+    background-color: pink;
+}
+
+.more {
+    background-color: chartreuse;
+    text-decoration: none;
+    color: brown;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.content h2 {
+    font-size: 3rem;
+}
+
+.container p {
+    font-size: 2rem;
+}

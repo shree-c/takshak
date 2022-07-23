@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.navcon {
+    background-color: aqua;
+    padding: 10px 0;
+    padding-left: 20px;
+}
+
+
+.loginbox {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.logincon input {
+    display: block;
+    border: 2px solid black;
+    box-shadow: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.logincon label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.logincon {
+    margin-top: 200px;
+}
